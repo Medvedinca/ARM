@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    font-family: 'Roboto', -apple-system, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: aliceblue;
+  }
+
+body{
+  background-color: #3B446B;
+}
+
+.main {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #8e98c0;
+  width: 465px;
+  height: 320px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 10px #9e9494;
+}
+
+#list{
+  color: aliceblue;
+  font-size: 32px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+select {
+  overflow-y: auto;
+}
+
+.list{
+  display: flex;
+  position: absolute;
+  width: 280px;
+  height: 250px;
+  margin-top: -10px;
+  margin-left: -300px;
+  border-radius: 3px;
+}
+
+option{
+  color: black;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 2px;
+  padding-left: 2px;
+  font-size: 18px;
+  border: 1px solid;
+  border-radius: 3px;
+  background-color: #8e98c0;
+  color: aliceblue;
+}
+
+.form{
+  display: inline-block;
+  position: absolute;
+  background-color: #808bb6;
+  margin-left: 300px;
+  margin-top: 50px;
+  width: 140px;
+  height: 150px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border: 1px solid;
+  border-color: #757fa3;
+  border-radius: 3px;  
+}
+
+button{
+  width: 130px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: #25b360;
+  border-radius: 4px;
+  font-size: 24px;
+  cursor:pointer;
+}
+
+#dark {
+  background: rgba(51, 51, 51, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+#modal {
+  width: 400px;
+  height: 115px;
+  background: #6d738a;
+  border: 1px solid #3B446B;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+#dark:target {display: block;}
+.close {
+  display: flex;
+  position: absolute;
+  border-radius: 4px;
+  padding: 5px;
+  color:aliceblue;
+  text-decoration: none;
+  background: #25b360;
+  font-size: 14pt;
+  cursor:pointer;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+.close:hover {background: #36f055;}
+
+#modal_text{
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 24px;
+}
+
+#modal_input{
+  margin-left: 5px;
+  font-size: 24;
+  padding-left: 2px;
+  font-size: 18px;
+  color: black;
+  border-radius: 3px;
+  border: 1px solid #3B446B;
+  width: 385px;
+}
+
+#send{
+  position: absolute;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 5px;
+  background: #25b360;
+  border: 0px;
+  width: 90px;
+  height: 35px;
+  padding-top: 4px;
+  padding-left: 17px;
+  font-size: 14pt;
+}
+
+#send:hover{background: #36f055;}
+

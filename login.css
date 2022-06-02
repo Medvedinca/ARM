@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    font-family: 'Roboto', -apple-system, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: aliceblue;
+  }
+
+body{
+  background-color: #3B446B;
+}
+
+.login {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #b2bbde;
+  width: 300px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 10px #9e9494;
+}
+
+#logintxt{
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 25px;
+  font-size: 35px;
+}
+
+#pl{
+  margin-top: 50px;
+  margin-left: 10px;
+  padding-bottom: 5px;
+  font-size: 24px;
+}
+
+#il{
+  margin-left: 10px;
+  color: black;
+  width: 277px;
+  height: 30px;
+  font-size: 20px;
+  border: 1px solid #bdbdbd;
+  border-radius: 2px;
+  padding-left: 3px;
+  
+}
+
+#send{
+  margin-top: 8px;
+  height: 40px;
+  width: 280px;
+  margin-left: 10px;
+  border: 1px solid #281e1e;
+  border-radius: 5px;
+  background-color: #3B446B;
+  font-size: 25px;
+}
+
+#send:hover{
+  border: 1px solid #bdbdbd;
+}
