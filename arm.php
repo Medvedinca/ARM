@@ -11,9 +11,9 @@
     <?php
     session_start();
 
-    $server = 'localhost';
-    $user = 'root';
-    $password = '';
+    $server = 'eu-cdbr-west-02.cleardb.net';
+    $user = 'ba8b500d530810';
+    $password = '820a4839';
 
     $dblink = mysqli_connect($server, $user, $password);
 
@@ -23,7 +23,7 @@
         die('Ошибка подключения к серверу баз данных.');
 
     echo '<br>';
-    $database = 'arm';
+    $database = 'heroku_86dca5468e333fc';
     $selected = mysqli_select_db($dblink, $database);
     if ($selected)
         echo ' Подключение к базе данных прошло успешно.';
